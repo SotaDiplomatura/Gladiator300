@@ -42,17 +42,18 @@ public class MovmientoEnemigo : MonoBehaviour
         x = transform.position.x;
         y = transform.position.y;
         float comparacionX = xRecuerdo - x;
+        comparacionX = (float)System.Math.Round(comparacionX, 3);
         print(comparacionX);
         float comparacionY = yRecuerdo - y;
-        if(comparacionX > -0.03 && comparacionX <0.03)
+        if(comparacionX > -0.015f && comparacionX < 0.015f)
         {
             inputX = 0;
         }
-        else if (xRecuerdo < x)
+        else if (comparacionX < 0)
         {
             inputX = -1;
         }
-        else if (xRecuerdo > x)
+        else if (comparacionX > 0)
         {
             inputX = 1;
         }
