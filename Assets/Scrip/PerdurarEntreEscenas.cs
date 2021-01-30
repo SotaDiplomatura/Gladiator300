@@ -16,3 +16,7 @@ public class PerdurarEntreEscenas : MonoBehaviour
     }
 
 }
+enum Salas
+{
+    Pequeña,Media,Grandes
+}

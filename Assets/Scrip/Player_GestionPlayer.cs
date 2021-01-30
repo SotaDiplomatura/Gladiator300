@@ -9,12 +9,6 @@ public class Player_GestionPlayer : MonoBehaviour
 
     Transform _puerta;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         _puerta = GameObject.Find("Entrada").GetComponent<Transform>();
