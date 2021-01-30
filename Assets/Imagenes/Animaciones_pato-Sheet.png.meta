@@ -1,55 +1,103 @@
 fileFormatVersion: 2
-guid: 8dd9178e05c2cd54fa8afe260c4b2008
+guid: 16b0ba6d19c8d8c4194c9b919d83dd7c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -615210962873722426
-    second: Animaciones_pato_0
+      213: 8288073153727997455
+    second: Animaciones_pato-Sheet_0
   - first:
-      213: 6966413533274226029
-    second: Animaciones_pato_1
+      213: -3605150205743197226
+    second: Animaciones_pato-Sheet_1
   - first:
-      213: 5717738986752177337
-    second: Animaciones_pato_2
+      213: 8831830071293817967
+    second: Animaciones_pato-Sheet_2
   - first:
-      213: -5825295562637042794
-    second: Animaciones_pato_3
+      213: 470632389002101315
+    second: Animaciones_pato-Sheet_3
   - first:
-      213: -6361567253138759926
-    second: Animaciones_pato_4
+      213: -4540655434731874611
+    second: Animaciones_pato-Sheet_4
   - first:
-      213: 6529832636463440627
-    second: Animaciones_pato_5
+      213: 7380944690070525511
+    second: Animaciones_pato-Sheet_5
   - first:
-      213: 7793751309600640211
-    second: Animaciones_pato_6
+      213: 7942968645891287129
+    second: Animaciones_pato-Sheet_6
   - first:
-      213: -5912340770598918134
-    second: Animaciones_pato_7
+      213: 6480222446346724648
+    second: Animaciones_pato-Sheet_7
   - first:
-      213: -5963635496198393698
-    second: Animaciones_pato_8
+      213: 518859762069616254
+    second: Animaciones_pato-Sheet_8
   - first:
-      213: -4383047021168383356
-    second: Animaciones_pato_9
+      213: 619590505216862130
+    second: Animaciones_pato-Sheet_9
   - first:
-      213: -1462219833134949072
-    second: Animaciones_pato_10
+      213: 5165392177960421076
+    second: Animaciones_pato-Sheet_10
   - first:
-      213: 782774262313699453
-    second: Animaciones_pato_11
+      213: 3223857226577115333
+    second: Animaciones_pato-Sheet_11
   - first:
-      213: -5054597502281744706
-    second: Animaciones_pato_12
+      213: 6090133669471691743
+    second: Animaciones_pato-Sheet_12
   - first:
-      213: 1185357179963252085
-    second: Animaciones_pato_13
+      213: -6333055658595123401
+    second: Animaciones_pato-Sheet_13
   - first:
-      213: -6939779247433002902
-    second: Animaciones_pato_14
+      213: 2084681045611510006
+    second: Animaciones_pato-Sheet_14
   - first:
-      213: -1371966702376647794
-    second: Animaciones_pato_15
+      213: 4500879934657153142
+    second: Animaciones_pato-Sheet_15
+  - first:
+      213: 4544380444079918588
+    second: Animaciones_pato-Sheet_0
+  - first:
+      213: -6408873000034653620
+    second: Animaciones_pato-Sheet_1
+  - first:
+      213: 3395468617123332419
+    second: Animaciones_pato-Sheet_2
+  - first:
+      213: 6339221714616676564
+    second: Animaciones_pato-Sheet_3
+  - first:
+      213: 5978217402072784710
+    second: Animaciones_pato-Sheet_4
+  - first:
+      213: 8923586878488918604
+    second: Animaciones_pato-Sheet_5
+  - first:
+      213: 3527305753497171454
+    second: Animaciones_pato-Sheet_6
+  - first:
+      213: -2425916215024747477
+    second: Animaciones_pato-Sheet_7
+  - first:
+      213: 2774061037739501246
+    second: Animaciones_pato-Sheet_8
+  - first:
+      213: 2111471472923924388
+    second: Animaciones_pato-Sheet_9
+  - first:
+      213: 1601886834262759397
+    second: Animaciones_pato-Sheet_10
+  - first:
+      213: -501950921237492943
+    second: Animaciones_pato-Sheet_11
+  - first:
+      213: 5572019245513019154
+    second: Animaciones_pato-Sheet_12
+  - first:
+      213: -8262326905637818413
+    second: Animaciones_pato-Sheet_13
+  - first:
+      213: 5099635059634802433
+    second: Animaciones_pato-Sheet_14
+  - first:
+      213: -7918372537084818729
+    second: Animaciones_pato-Sheet_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -146,7 +194,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Animaciones_pato_0
+      name: Animaciones_pato-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -160,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163d71cb98c32ae4aa736ba4b4373dc5
-      internalID: -615210962873722426
+      spriteID: cfd8d9dcfe1e01f30800000000000000
+      internalID: 4544380444079918588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_1
+      name: Animaciones_pato-Sheet_1
       rect:
         serializedVersion: 2
         x: 24
@@ -181,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb0b16f419abc70468a4e13f651880f9
-      internalID: 6966413533274226029
+      spriteID: c4aa75e46fb1f07a0800000000000000
+      internalID: -6408873000034653620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_2
+      name: Animaciones_pato-Sheet_2
       rect:
         serializedVersion: 2
         x: 48
@@ -202,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bf856d1ef0902749a3a7c699113e3bb
-      internalID: 5717738986752177337
+      spriteID: 3418f91a7b02f1f20800000000000000
+      internalID: 3395468617123332419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_3
+      name: Animaciones_pato-Sheet_3
       rect:
         serializedVersion: 2
         x: 72
@@ -223,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d99aa75614047a14288f435c24f98036
-      internalID: -5825295562637042794
+      spriteID: 4d07b24109079f750800000000000000
+      internalID: 6339221714616676564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_4
+      name: Animaciones_pato-Sheet_4
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e03753b457f930468f708376141c216
-      internalID: -6361567253138759926
+      spriteID: 64f5b90ad05e6f250800000000000000
+      internalID: 5978217402072784710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_5
+      name: Animaciones_pato-Sheet_5
       rect:
         serializedVersion: 2
         x: 24
@@ -265,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439fc1abc4538d44596b92778018db3d
-      internalID: 6529832636463440627
+      spriteID: c4a3bae9cf2f6db70800000000000000
+      internalID: 8923586878488918604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_6
+      name: Animaciones_pato-Sheet_6
       rect:
         serializedVersion: 2
         x: 48
@@ -286,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9483498e746add845a315d32ca5533f5
-      internalID: 7793751309600640211
+      spriteID: ef5f363f4e183f030800000000000000
+      internalID: 3527305753497171454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_7
+      name: Animaciones_pato-Sheet_7
       rect:
         serializedVersion: 2
         x: 72
@@ -307,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66967c6603a5e3a42a556c90d1b42616
-      internalID: -5912340770598918134
+      spriteID: b2cf6943e0a655ed0800000000000000
+      internalID: -2425916215024747477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_8
+      name: Animaciones_pato-Sheet_8
       rect:
         serializedVersion: 2
         x: 0
@@ -328,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54e409ad62a08564483d36522890b852
-      internalID: -5963635496198393698
+      spriteID: eb6e6b3f0d17f7620800000000000000
+      internalID: 2774061037739501246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_9
+      name: Animaciones_pato-Sheet_9
       rect:
         serializedVersion: 2
         x: 24
@@ -349,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a01efd0c164fe041a1c3af9fa385538
-      internalID: -4383047021168383356
+      spriteID: 4a750091e147d4d10800000000000000
+      internalID: 2111471472923924388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_10
+      name: Animaciones_pato-Sheet_10
       rect:
         serializedVersion: 2
         x: 48
@@ -370,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 809af4cee390bc449a8430e427552306
-      internalID: -1462219833134949072
+      spriteID: 5e75b9ea69b0b3610800000000000000
+      internalID: 1601886834262759397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_11
+      name: Animaciones_pato-Sheet_11
       rect:
         serializedVersion: 2
         x: 72
@@ -391,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72a12e6325435b442a2464238c94cd92
-      internalID: 782774262313699453
+      spriteID: 13b85fceb46b809f0800000000000000
+      internalID: -501950921237492943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_12
+      name: Animaciones_pato-Sheet_12
       rect:
         serializedVersion: 2
         x: 0
@@ -412,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fb0f4fdc7e9cb4daa7e70ab237d1c4
-      internalID: -5054597502281744706
+      spriteID: 21f81726bf9c35d40800000000000000
+      internalID: 5572019245513019154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_13
+      name: Animaciones_pato-Sheet_13
       rect:
         serializedVersion: 2
         x: 24
@@ -433,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ac0024399e0db4c9edadbecdcb3f3c
-      internalID: 1185357179963252085
+      spriteID: 3df2e4b7471565d80800000000000000
+      internalID: -8262326905637818413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_14
+      name: Animaciones_pato-Sheet_14
       rect:
         serializedVersion: 2
         x: 48
@@ -454,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0d0654327d2ce249b31a30422228221
-      internalID: -6939779247433002902
+      spriteID: 10f09a5511b85c640800000000000000
+      internalID: 5099635059634802433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animaciones_pato_15
+      name: Animaciones_pato-Sheet_15
       rect:
         serializedVersion: 2
         x: 72
@@ -475,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cae1584c203aa5a478efc7d173faa7d1
-      internalID: -1371966702376647794
+      spriteID: 7dac9df712a4c1290800000000000000
+      internalID: -7918372537084818729
       vertices: []
       indices: 
       edges: []

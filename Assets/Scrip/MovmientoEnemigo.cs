@@ -16,7 +16,14 @@ public class MovmientoEnemigo : MonoBehaviour
 
     int inputY;
     int inputX;
+    bool _atacando;
 
+    [SerializeField]
+    float _distanciaAtaque;
+    [SerializeField]
+    float _daño;
+    [SerializeField]
+    GameObject _colliderAtac;
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -29,10 +36,14 @@ public class MovmientoEnemigo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _navM.SetDestination(_player.position);
-        LeerDireccion();
-        Flip();
-        Animacion();
+        if(!_atacando)
+        {
+            _navM.SetDestination(_player.position);
+            LeerDireccion();
+            Flip();
+            Atacar();
+            Animacion();
+        }
     }
 
     void LeerDireccion()
@@ -42,10 +53,10 @@ public class MovmientoEnemigo : MonoBehaviour
         x = transform.position.x;
         y = transform.position.y;
         float comparacionX = xRecuerdo - x;
-        comparacionX = (float)System.Math.Round(comparacionX, 3);
+        comparacionX = (float)System.Math.Round(comparacionX, 2);
         print(comparacionX);
         float comparacionY = yRecuerdo - y;
-        if(comparacionX > -0.015f && comparacionX < 0.015f)
+        if(comparacionX > -0.01f && comparacionX < 0.01f)
         {
             inputX = 0;
         }
@@ -81,9 +92,47 @@ public class MovmientoEnemigo : MonoBehaviour
             transform.localRotation = Quaternion.Euler(new Vector3(0, -180, 0));
         }
     }
+    void Atacar()
+    {
+        float distancia = Vector2.Distance(transform.position, _player.position);
+        if(distancia < _distanciaAtaque)
+        {
+            _navM.SetDestination(transform.position);
+            _myAni.SetBool("Atacando", true);
+            _atacando = true;
+            
+        }
+    }
     void Animacion()
     {
         _myAni.SetInteger("x", inputX);
         _myAni.SetInteger("y", inputY);
+    }
+
+    void ActivatCollider()
+    {
+        _colliderAtac.SetActive(true);
+    }
+
+    void DesactivarCollider()
+    {
+        _atacando = false;
+        _colliderAtac.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<Vida>().Daño(_daño);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<Vida>().Daño(_daño);
+        }
     }
 }

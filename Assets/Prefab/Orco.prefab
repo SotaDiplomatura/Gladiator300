@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1121996627380809746}
   - component: {fileID: 1121996627380809838}
   - component: {fileID: 1011559005428885205}
-  - component: {fileID: 1121996627380809839}
   - component: {fileID: -7127608651573343219}
   - component: {fileID: 6144482316867120887}
   m_Layer: 0
@@ -74,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1291725171
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4367076738140638355, guid: db4bc0f509b0cd8419a58098f241aa7e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -122,27 +121,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.26, y: 0.23}
   m_Direction: 0
---- !u!50 &1121996627380809839
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1121996627380809747}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 16
-  m_LinearDrag: 1
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!114 &-7127608651573343219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47bd60c44778b0142b622abe99a82d07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _distanciaAtaque: 0.8
+  "_da\xF1o": 0
+  _colliderAtac: {fileID: 0}
 --- !u!195 &6144482316867120887
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -164,12 +145,12 @@ NavMeshAgent:
   m_GameObject: {fileID: 1121996627380809747}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.3
+  m_Radius: 1
   m_Speed: 2
   m_Acceleration: 4
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0.3
+  m_StoppingDistance: 1.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

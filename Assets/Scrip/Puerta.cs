@@ -37,7 +37,9 @@ public class Puerta : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        _gPuerta.CargarEscena();
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            _gPuerta.CargarEscena();
+        }
     }
 }
