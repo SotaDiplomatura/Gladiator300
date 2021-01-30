@@ -7,8 +7,7 @@ using UnityEngine.SceneManagement;
 public class ButtomController : MonoBehaviour
 {
 
-    public Sprite _onClick;
-    public Sprite _default;
+    public GameObject _Ajustes;
 
 
     void Start()
@@ -17,12 +16,27 @@ public class ButtomController : MonoBehaviour
     }
 
 
-    public void MyButtonClickFunction(Image myImageToUpdate)
+    public void StartGame()
     {
-        myImageToUpdate.sprite = _onClick;
-}
+        SceneManager.LoadScene((1), LoadSceneMode.Single);
+    }
+    public void AjustesMenu()
+    {
+        if (_Ajustes.activeSelf)
+        {
+            _Ajustes.SetActive(false);
+        }
+        else
+        {
+            _Ajustes.SetActive(true);
+        }
 
 
+    }
 
+    public void Exit()
+    {
 
+        Application.Quit();
+    }
 }

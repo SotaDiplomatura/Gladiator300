@@ -36,7 +36,7 @@ public class DialogeController : MonoBehaviour
        
 
 
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
            
         {
             if (_Dialogos[0] != null)
