@@ -28,7 +28,7 @@ public class LanzarVumeran : MonoBehaviour
     {
         if (Input.GetAxis("Disparo") != 0 && _tieneVuemeran)
         {
-            if (_potencia <= _potenciaMax)
+            if (_potencia < _potenciaMax)
             {
                 _potencia += 1+Time.deltaTime;
             }

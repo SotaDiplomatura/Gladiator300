@@ -83,6 +83,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -186,7 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d96072f5bded60448b21081edc715e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocidad: 200
+  _velocidad: 300
+  "_da\xF1o": 0
   _espalda: 0
   _frente: 0
   _derecha: 0
@@ -205,7 +207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _vumeran: {fileID: 6877294279454757763, guid: 2b630fa3664362a40bd6da91736b1b87,
     type: 3}
-  _potenciaMax: 20
+  _potenciaMax: 40
   _potencia: 0
 --- !u!1 &6176160487053242056
 GameObject:

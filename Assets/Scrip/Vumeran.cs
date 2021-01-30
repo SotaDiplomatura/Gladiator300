@@ -23,7 +23,7 @@ public class Vumeran : MonoBehaviour
         _playerControll = transform.parent.GetComponent<PlayerController>();
         _playerLanzaV = transform.parent.GetComponent<LanzarVumeran>();
         gameObject.layer = 9;
-        potencia = _playerLanzaV._potencia * 1000;
+        potencia = _playerLanzaV._potencia * 10;
         transform.parent = null;
     }
     void Start()
@@ -37,34 +37,34 @@ public class Vumeran : MonoBehaviour
         if(_playerControll._derecha && _playerControll._espalda)
         {
             potencia /= 1.5f;
-            _myRb.AddForce(new Vector2(1,1) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(1,1) * potencia);
         }else if(_playerControll._derecha && _playerControll._frente)
         {
             potencia /= 1.5f;
-            _myRb.AddForce(new Vector2(1, -1) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(1, -1) * potencia);
 
         }else if(_playerControll._izquierda && _playerControll._espalda)
         {
             potencia /= 1.5f;
-            _myRb.AddForce(new Vector2(-1, 1) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(-1, 1) * potencia);
 
         }else if(_playerControll._izquierda && _playerControll._frente)
         {
             potencia /= 1.5f;
-            _myRb.AddForce(new Vector2(-1, -1) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(-1, -1) * potencia);
         }else if(_playerControll._derecha)
         {
-            _myRb.AddForce(new Vector2(1, 0) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(1, 0) * potencia);
         }
         else if(_playerControll._izquierda)
         {
-            _myRb.AddForce(new Vector2(-1, 0) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(-1, 0) * potencia);
         }else if(_playerControll._espalda)
         {
-            _myRb.AddForce(new Vector2(0, 1) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(0, 1) * potencia);
         }else if(!_playerControll._espalda)
         {
-            _myRb.AddForce(new Vector2(0, -1) * potencia * Time.deltaTime);
+            _myRb.AddForce(new Vector2(0, -1) * potencia);
         }
         print("pp");
     }
