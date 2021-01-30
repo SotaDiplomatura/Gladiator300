@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogeController : MonoBehaviour
 {
@@ -9,13 +10,12 @@ public class DialogeController : MonoBehaviour
     public GameObject _panel;
     public List<string> _Dialogos = new List<string>();
     public int _numeroLista;
-    public bool _hasTalk;
     public Text _text;
 
 
     void Start()
     {
-        bool _isTalking = false;
+
 
         _Dialogos.Add("What the hell are you looking at, asshole? The emperor is waiting for you and you should not make him angry.");
         _Dialogos.Add("Once I saw one like you, I think he led a country called América… I said led…");
@@ -33,15 +33,27 @@ public class DialogeController : MonoBehaviour
         _Dialogos.Add("Have you met Simba, yet? He 's working. If you meet him, he will probably eat you. Good luck!");
         _Dialogos.Add("Do you know the definition of madness? Seriously, because I don´t know.");
         _Dialogos.Add("A foreigner told me once about ramen. He had yellow hair and it looks like an orange, but he said it was delicious. It was the last thing he ate.");
+       
+        Debug.Log(SceneManager.GetActiveScene().buildIndex);
 
-        if (_hasTalk == false)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+           
         {
-
-            _numeroLista = Random.Range(0, _Dialogos.Count - 1);
-            _text.text = _Dialogos[_numeroLista].ToString();
-            _Dialogos.Remove(_Dialogos[_numeroLista]);
-
+            if (_Dialogos[0] != null)
+            {
+                Debug.Log("0 existe");
+                _numeroLista = 0;
+                _text.text = _Dialogos[_numeroLista].ToString();
+                //_Dialogos.Remove(_Dialogos[_numeroLista]);
+            }
+            else
+            {
+                _numeroLista = Random.Range(1, _Dialogos.Count - 1);
+                _text.text = _Dialogos[_numeroLista].ToString();
+                _Dialogos.Remove(_Dialogos[_numeroLista]);
+            }
         }
+        
 
     }
 
