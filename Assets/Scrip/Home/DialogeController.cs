@@ -34,7 +34,7 @@ public class DialogeController : MonoBehaviour
         _Dialogos.Add("Do you know the definition of madness? Seriously, because I don´t know.");
         _Dialogos.Add("A foreigner told me once about ramen. He had yellow hair and it looks like an orange, but he said it was delicious. It was the last thing he ate.");
        
-        Debug.Log(SceneManager.GetActiveScene().buildIndex);
+
 
         if (SceneManager.GetActiveScene().buildIndex == 0)
            
@@ -44,7 +44,7 @@ public class DialogeController : MonoBehaviour
                 Debug.Log("0 existe");
                 _numeroLista = 0;
                 _text.text = _Dialogos[_numeroLista].ToString();
-                //_Dialogos.Remove(_Dialogos[_numeroLista]);
+                _Dialogos.Remove(_Dialogos[_numeroLista]);
             }
             else
             {
