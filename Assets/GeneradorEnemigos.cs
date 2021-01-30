@@ -74,7 +74,7 @@ public class GeneradorEnemigos : MonoBehaviour
     void Spawn()
     {
         _aparicion += Time.deltaTime;
-        if(_aparicion >= tiempoEntreSpawn && )
+        if(_aparicion >= tiempoEntreSpawn )
         {
             ElegirSpawn();
             ElegirEnemigo();
