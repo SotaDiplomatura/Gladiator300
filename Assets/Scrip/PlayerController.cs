@@ -10,6 +10,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float _velocidad;
 
+    public float _daño;
+
+    public bool _espalda, _frente;
+    public bool _derecha,_izquierda;
     Vector2 _input;
 
     void Start()
@@ -24,7 +28,6 @@ public class PlayerController : MonoBehaviour
         Movimiento();
         Flip();
         Animaciones();
-
     }
 
     void LeerInput()
@@ -47,11 +50,43 @@ public class PlayerController : MonoBehaviour
     {
         if(_input.x >0)
         {
+            _derecha = true;
+            _izquierda = false;
             transform.localRotation = Quaternion.Euler(0,180,0);
+        }
+        else if(_input.x <0)
+        {
+            _izquierda = true;
+            _derecha = false;
+            transform.localRotation = Quaternion.Euler(0,0,0);
         }
         else
         {
-            transform.localRotation = Quaternion.Euler(0,0,0);
+            _izquierda = false;
+            _derecha = false;
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
+
+        if(_input.x != 0 && _input.y < 0)
+        {
+            FalseEspalda();
+            _frente = true;
+        }else if(_input.x != 0 && _input.y > 0)
+        {
+            TrueEspalda();
+            _frente = false;
+        }else if(_input.x !=0 && _input.y == 0)
+        {
+            FalseEspalda();
+            _frente = false;
+        }else if(_input.y < 0)
+        {
+            FalseEspalda();
+            _frente = true;
+        }else if ( _input.y > 0)
+        {
+            TrueEspalda();
+            _frente = false;
         }
     }
 
@@ -61,5 +96,14 @@ public class PlayerController : MonoBehaviour
         int y = (int)_input.y;
         _myAni.SetInteger("X", x);
         _myAni.SetInteger("Y", y);
+    }
+
+    public void TrueEspalda()
+    {
+        _espalda = true;
+    }
+    public void FalseEspalda()
+    {
+        _espalda = false;
     }
 }

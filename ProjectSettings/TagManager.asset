@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Vumeran
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - NoTocaPlayer
   - 
   - 
   - 
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: Personajes
     uniqueID: 3003242125
+    locked: 0
+  - name: OBL
+    uniqueID: 1554789975
     locked: 0
