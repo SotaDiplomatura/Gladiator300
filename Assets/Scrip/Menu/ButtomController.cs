@@ -8,6 +8,8 @@ public class ButtomController : MonoBehaviour
 {
 
     public GameObject _Ajustes;
+    public GameObject _Sonido;
+    public GameObject _Tutorial;
 
 
     void Start()
@@ -29,6 +31,32 @@ public class ButtomController : MonoBehaviour
         else
         {
             _Ajustes.SetActive(true);
+        }
+
+
+    }
+    public void SonidoControl()
+    {
+        if (_Sonido.activeSelf)
+        {
+            _Sonido.SetActive(false);
+        }
+        else
+        {
+            _Sonido.SetActive(true);
+        }
+
+
+    }
+    public void TutorialControl()
+    {
+        if (_Tutorial.activeSelf)
+        {
+            _Tutorial.SetActive(false);
+        }
+        else
+        {
+            _Tutorial.SetActive(true);
         }
 
 
