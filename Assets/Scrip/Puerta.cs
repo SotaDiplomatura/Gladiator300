@@ -1,0 +1,35 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Puerta : MonoBehaviour
+{
+    Enemigos_GestionEnemigos _gEnemigos;
+    Puerta_GertionEscena _gPuerta;
+
+    Collider2D _myCollider;
+
+    void Start()
+    {
+        _gEnemigos = GameObject.Find("GameController").GetComponent<Enemigos_GestionEnemigos>();
+        _gPuerta = GameObject.Find("GameController").GetComponent<Puerta_GertionEscena>();
+        _myCollider = GetComponent<Collider2D>();
+    }
+
+    void Update()
+    {
+        AbrirPuerta();
+    }
+
+    void AbrirPuerta()
+    {
+        if(_gEnemigos.numeroEnemigos == 0)
+        {
+            _myCollider.isTrigger = true;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        _gPuerta.CargarEscena();
+    }
+}

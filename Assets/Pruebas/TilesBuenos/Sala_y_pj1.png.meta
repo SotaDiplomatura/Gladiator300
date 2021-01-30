@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: 5231b19b3d2db4147932ce3a11daaa04
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8994389947475207092
+    second: Sala_y_pj1_0
+  - first:
+      213: 7102827920478480751
+    second: Sala_y_pj1_1
+  - first:
+      213: 6324979726577718304
+    second: Sala_y_pj1_2
+  - first:
+      213: -7169031076214241802
+    second: Sala_y_pj1_3
+  - first:
+      213: 1621235973343347376
+    second: Sala_y_pj1_4
+  - first:
+      213: 2751062324126106898
+    second: Sala_y_pj1_5
+  - first:
+      213: 3766120382382384152
+    second: Sala_y_pj1_6
+  - first:
+      213: 6557188226514022993
+    second: Sala_y_pj1_7
+  - first:
+      213: -669661061541454454
+    second: Sala_y_pj1_8
+  - first:
+      213: -6297352966741995635
+    second: Sala_y_pj1_9
+  - first:
+      213: 6366712847038768353
+    second: Sala_y_pj1_10
+  - first:
+      213: -7297826887134450737
+    second: Sala_y_pj1_11
+  - first:
+      213: -6783233342651587433
+    second: Sala_y_pj1_12
+  - first:
+      213: -7206063715816036201
+    second: Sala_y_pj1_13
+  - first:
+      213: -6592351822488499237
+    second: Sala_y_pj1_14
+  - first:
+      213: 8209356211335514086
+    second: Sala_y_pj1_15
+  - first:
+      213: -7441518825307325798
+    second: Sala_y_pj1_16
+  - first:
+      213: 6081453801626369146
+    second: Sala_y_pj1_17
+  - first:
+      213: -7622058991734668937
+    second: Sala_y_pj1_18
+  - first:
+      213: 3000433623679893528
+    second: Sala_y_pj1_19
+  - first:
+      213: -8508364511145850014
+    second: Sala_y_pj1_20
+  - first:
+      213: 8554074289558788697
+    second: Sala_y_pj1_21
+  - first:
+      213: -1250824860878590717
+    second: Sala_y_pj1_22
+  - first:
+      213: -5371178708118539878
+    second: Sala_y_pj1_23
+  - first:
+      213: 346696004911210373
+    second: Sala_y_pj1_24
+  - first:
+      213: -5147259143361492830
+    second: Sala_y_pj1_25
+  - first:
+      213: -2400095473513962213
+    second: Sala_y_pj1_26
+  - first:
+      213: 5371862301850409845
+    second: Sala_y_pj1_27
+  - first:
+      213: 730694168685785114
+    second: Sala_y_pj1_28
+  - first:
+      213: -1574333028197136647
+    second: Sala_y_pj1_29
+  - first:
+      213: 2042654339814688084
+    second: Sala_y_pj1_30
+  - first:
+      213: 1846689366814587568
+    second: Sala_y_pj1_31
+  - first:
+      213: -5434211564485659323
+    second: Sala_y_pj1_32
+  - first:
+      213: -6352779791784646004
+    second: Sala_y_pj1_33
+  - first:
+      213: -618304285600538149
+    second: Sala_y_pj1_34
+  - first:
+      213: 2762910792005052802
+    second: Sala_y_pj1_35
+  - first:
+      213: 7658424636522642599
+    second: Sala_y_pj1_36
+  - first:
+      213: -3776365278245300288
+    second: Sala_y_pj1_37
+  - first:
+      213: 4455360737190228565
+    second: Sala_y_pj1_38
+  - first:
+      213: -3907925344574093114
+    second: Sala_y_pj1_39
+  - first:
+      213: 7431665169263822671
+    second: Sala_y_pj1_40
+  - first:
+      213: -7560882282880962070
+    second: Sala_y_pj1_41
+  - first:
+      213: -7537736218758841163
+    second: Sala_y_pj1_42
+  - first:
+      213: 9187015781529295638
+    second: Sala_y_pj1_43
+  - first:
+      213: 1956964249717336057
+    second: Sala_y_pj1_44
+  - first:
+      213: -3509958288378640802
+    second: Sala_y_pj1_45
+  - first:
+      213: -1057396585105412196
+    second: Sala_y_pj1_46
+  - first:
+      213: -5903180317481268036
+    second: Sala_y_pj1_47
+  - first:
+      213: 5548374689959727395
+    second: Sala_y_pj1_48
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sala_y_pj1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ce6930efbb6d24fbbf639f7663b5c1
+      internalID: 8994389947475207092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca63101abfa53b64b910b59d138a22ae
+      internalID: 7102827920478480751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1222ad334e953d14abc216a70aae9a5f
+      internalID: 6324979726577718304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409c60151af0faf4e8da39ef538efff2
+      internalID: -7169031076214241802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b551fb7ef989a468b4444892e9cfe5
+      internalID: 1621235973343347376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f481f715678992f42a18121919408c69
+      internalID: 2751062324126106898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d184523d4497744b9536009046e2ad7
+      internalID: 3766120382382384152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 222
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0832361a53b67f34f83927e0abf75792
+      internalID: 6557188226514022993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 222
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d4ed4d659e3304088e75b027e8b878
+      internalID: -669661061541454454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 222
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0ad4c434b41da49a0eac5d98f77293
+      internalID: -6297352966741995635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 222
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f45ac1e12ea7f448f90903bd40cce4
+      internalID: 6366712847038768353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da98a91fd298fba438a94fcdcf820f42
+      internalID: -7297826887134450737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 198
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10f97fb5880afe4eb5446077a68496e
+      internalID: -6783233342651587433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 198
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cfebd64bedb8845aa681e861cbfdfc
+      internalID: -7206063715816036201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 198
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8363c99c7ed801140b0df39d464a7c9b
+      internalID: -6592351822488499237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 198
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0a74475d0bd7845a36ea66710ff173
+      internalID: 8209356211335514086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7e2e7c6509d0641b40d89f60f49674
+      internalID: -7441518825307325798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 174
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168a434053a4cb142a73d177b0190b49
+      internalID: 6081453801626369146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 174
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefc92bbe2bb48b4080e471277474939
+      internalID: -7622058991734668937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 174
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad9c795a147844448b4f0c5b3cdc711
+      internalID: 3000433623679893528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 174
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a26a3e43a28624f927b37ffcec27e8
+      internalID: -8508364511145850014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cebaaf111ac034b87b9840f4c3c6d1
+      internalID: 8554074289558788697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 150
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3b095464e6cae4e9a1c689d62d64ff
+      internalID: -1250824860878590717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 150
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511b58a24dac49b42b52c789b302b281
+      internalID: -5371178708118539878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 150
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66355886a10cdb3488788766265bf8a2
+      internalID: 346696004911210373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 150
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990136579e464e84c8af53a062227609
+      internalID: -5147259143361492830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642d06058dce8fc479d0274a6a406906
+      internalID: -2400095473513962213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b519497e747b046a6336ad24be3fa1
+      internalID: 5371862301850409845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73021f2d1aa4b846a9c1f03493db572
+      internalID: 730694168685785114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1e5daebaf09b8459208c6104a1dd5d
+      internalID: -1574333028197136647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b4cbcbe5783624aa4321e3d3200f86
+      internalID: 2042654339814688084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aede959c07302c49838d9fccf5ec07a
+      internalID: 1846689366814587568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 102
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8ce64f083cdf34eabdff522cc5a870
+      internalID: -5434211564485659323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 102
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab0c4f603106f041b99ca963bbf36e4
+      internalID: -6352779791784646004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 102
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed20096379934eb4b9e3deac7e585c25
+      internalID: -618304285600538149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb2c65275842b7478992685e19f5f6a
+      internalID: 2762910792005052802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 78
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d8da747c110b746aad64ed84b4e825
+      internalID: 7658424636522642599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 78
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8268d541ac91a5141b6919f588806006
+      internalID: -3776365278245300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 78
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9b2815206854545913e3c184cc9184
+      internalID: 4455360737190228565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7d3df0f9dbb7a4cac6e366d02736fc
+      internalID: -3907925344574093114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 54
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b9649fdf11d7842915873a61fd504a
+      internalID: 7431665169263822671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_41
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 54
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82da7c6a8e2f6a4da1b000d333646fa
+      internalID: -7560882282880962070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 54
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc87807a5dd5a847957f4a85995b266
+      internalID: -7537736218758841163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a3e051bc6952245986f9f4f298158e
+      internalID: 9187015781529295638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d21ddee46a2bf4449892d4d4d0b0fb9
+      internalID: 1956964249717336057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6872affc52e64f4caadf97c024df6e1
+      internalID: -3509958288378640802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9683d142b62a8444878e79c28e6d69c
+      internalID: -1057396585105412196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41392acc88cceaf478ab9e0162d9acb6
+      internalID: -5903180317481268036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sala_y_pj1_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 6
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ac20aef34f9ea4c9ccfab8964fb113
+      internalID: 5548374689959727395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
