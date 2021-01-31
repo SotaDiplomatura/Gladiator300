@@ -58,9 +58,8 @@ public class DialogeController : MonoBehaviour
             }
             else
             {
-                _numeroLista = Random.Range(1, _Dialogos.Count - 1);
+                _numeroLista = Random.Range(1, _Dialogos.Count);
                 _text.text = _Dialogos[_numeroLista].ToString();
-                _Dialogos.Remove(_Dialogos[_numeroLista]);
             }
         }
         

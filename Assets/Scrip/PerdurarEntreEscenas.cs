@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PerdurarEntreEscenas : MonoBehaviour
 {
@@ -14,7 +15,13 @@ public class PerdurarEntreEscenas : MonoBehaviour
             creado = true;
         }
     }
-
+    private void Update()
+    {
+        if(SceneManager.GetActiveScene().buildIndex == 7)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
 enum Salas
 {

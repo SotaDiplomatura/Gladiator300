@@ -10,9 +10,8 @@ public class VidaPlayer : MonoBehaviour
     List<Sprite> _live;
     Image _imgLive;
 
-    [SerializeField]
-    float _vida;
-    float _vidaMax;
+    public float _vida;
+    public float _vidaMax;
 
     float cadencia;
     float tiempoDaños;

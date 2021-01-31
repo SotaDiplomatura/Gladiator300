@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class Puerta_GertionEscena : MonoBehaviour
 {
     public int numeroDeNivelesPasados;
-
+    [SerializeField]
+    int finalDelJuego;
 
     public void CargarEscena()
     {
@@ -20,6 +21,10 @@ public class Puerta_GertionEscena : MonoBehaviour
         {
             escenaRandom = Random.Range(2, 7);
             SceneManager.LoadScene(escenaRandom);
+        }
+        if(numeroDeNivelesPasados >= finalDelJuego)
+        {
+            SceneManager.LoadScene(7);
         }
         numeroDeNivelesPasados++;
     }
