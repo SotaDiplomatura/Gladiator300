@@ -10,4 +10,8 @@ public class Destruir : MonoBehaviour
         Destroy(transform.parent.gameObject);
         Destroy(gameObject);
     }
+    public void DestruirSinPadre()
+    {
+        Destroy(gameObject);
+    }
 }

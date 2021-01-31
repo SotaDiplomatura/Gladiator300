@@ -1537,6 +1537,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091625432675168679, guid: ed565466cda3a6342a1e5e90567e5129,
         type: 3}
+      propertyPath: _sala
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091625432675168679, guid: ed565466cda3a6342a1e5e90567e5129,
+        type: 3}
       propertyPath: _puntos.Array.size
       value: 2
       objectReference: {fileID: 0}

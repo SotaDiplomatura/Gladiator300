@@ -10,20 +10,23 @@ public class LevelUP : MonoBehaviour
     GameObject _levelUp,_levelUp2;
 
     [SerializeField]
-    int salaLevelUp;
+    int salaLevelUp,salaLevelUp2;
     void Start()
     {
         _gEscena = GameObject.Find("GameController").GetComponent<Puerta_GertionEscena>();
         _myPlayerControll = GetComponent<PlayerController>();
-    }
-
-    void Update()
-    {
-        if(_gEscena.numeroDeNivelesPasados > salaLevelUp)
+        if (_gEscena.numeroDeNivelesPasados == salaLevelUp)
         {
             _levelUp.SetActive(true);
-            _myPlayerControll._daño *= 2;
-            _myPlayerControll._velocidad *= 1.5f;
+            _myPlayerControll._daño *= 2f;
+            _myPlayerControll._velocidad += 2f;
+        }
+        if (_gEscena.numeroDeNivelesPasados == salaLevelUp2)
+        {
+            _levelUp2.SetActive(true);
+            _myPlayerControll._daño *= 2f;
+            _myPlayerControll._velocidad += 2f;
+
         }
     }
 }

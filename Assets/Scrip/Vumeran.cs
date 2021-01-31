@@ -84,7 +84,6 @@ public class Vumeran : MonoBehaviour
         {
             _myRb.velocity = new Vector2(0,0);
         }
-        print(Mathf.Round(_myRb.velocity.magnitude));
     }
 
     void CambiarLayer()
