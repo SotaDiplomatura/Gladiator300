@@ -5,6 +5,7 @@ using UnityEngine;
 public class GeneradorEnemigos : MonoBehaviour
 {
     Puerta_GertionEscena _gEscena;
+    Enemigos_GestionEnemigos _gEnemigo;
 
     [SerializeField]
     List<Transform> _puntos;
@@ -27,7 +28,8 @@ public class GeneradorEnemigos : MonoBehaviour
     void Start()
     {
         _gEscena = GameObject.Find("GameController").GetComponent<Puerta_GertionEscena>();
-        if(_gEscena.numeroDeNivelesPasados >= 3 && _gEscena.numeroDeNivelesPasados < 5)
+        _gEnemigo = GameObject.Find("GameController").GetComponent<Enemigos_GestionEnemigos>();
+        if (_gEscena.numeroDeNivelesPasados >= 3 && _gEscena.numeroDeNivelesPasados < 5)
         {
             numeroEnemigos += 1;
         }else if(_gEscena.numeroDeNivelesPasados >= 5 && _gEscena.numeroDeNivelesPasados < 7)
@@ -74,19 +76,19 @@ public class GeneradorEnemigos : MonoBehaviour
     void Spawn()
     {
         _aparicion += Time.deltaTime;
-        if(_aparicion >= tiempoEntreSpawn )
+        if(_aparicion >= tiempoEntreSpawn && numeroSpawneados <= numeroMaximoEnemigos && numeroSpawneados <=numeroEnemigos)
         {
-            ElegirSpawn();
-            ElegirEnemigo();
-
+            Instantiate(ElegirEnemigo(),ElegirSpawn(),Quaternion.identity);
+            numeroSpawneados++;
+            _gEnemigo.SumarEnemigo();
             _aparicion = 0;
         }
     }
 
-    void ElegirSpawn()
+    Vector2 ElegirSpawn()
     {
         int numeroAleatorio = Random.Range(0,_puntos.Count);
-        _posicion = _puntos[numeroAleatorio].position;
+        return _posicion = _puntos[numeroAleatorio].position;
     }
 
     GameObject ElegirEnemigo()
