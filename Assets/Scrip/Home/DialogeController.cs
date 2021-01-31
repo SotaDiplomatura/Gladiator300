@@ -11,13 +11,24 @@ public class DialogeController : MonoBehaviour
     public List<string> _Dialogos = new List<string>();
     public int _numeroLista;
     public Text _text;
-
+    bool primeraVez = false;
 
     void Start()
     {
+        if(PlayerPrefs.GetInt("PrimeraVez") != 1)
+        {
+            primeraVez = true;
+        }
+        else
+        {
+            primeraVez = false;
+        }
+        if(primeraVez)
+        {
+            _Dialogos.Add("What the hell are you looking at, asshole? The emperor is waiting for you and you should not make him angry.");
+            PlayerPrefs.SetInt("PrimeraVez", 1);
+        }
 
-
-        _Dialogos.Add("What the hell are you looking at, asshole? The emperor is waiting for you and you should not make him angry.");
         _Dialogos.Add("Once I saw one like you, I think he led a country called América… I said led…");
         _Dialogos.Add("The emperor is important, we live in a society after all.");
         _Dialogos.Add("I had a woman, you know? She said she'd wait for me… but I met Simba… hahaha");
@@ -39,7 +50,7 @@ public class DialogeController : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 1)
            
         {
-            if (_Dialogos[0] != null)
+            if (primeraVez)
             {
                 _numeroLista = 0;
                 _text.text = _Dialogos[_numeroLista].ToString();
