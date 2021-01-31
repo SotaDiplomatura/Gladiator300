@@ -43,12 +43,8 @@ public class ScriptSolete : MonoBehaviour
 
         //Debug.Log("distancia en x : " + distanciaEnX + "distancia en y : " + distanciaEnY);
 
-        if (distanciaEnX < 0.1 || distanciaEnY < 0.1)
-        {
-            Disparo();
-        }
 
-        else if (distanciaObjetivo > 3)
+        if (distanciaObjetivo > 3)
         {
             transform.position = Vector3.Lerp(transform.position, _player.transform.position, _speed);
         }
@@ -65,56 +61,6 @@ public class ScriptSolete : MonoBehaviour
             }
         }
 
-        void Disparo ()
-        {
-            if (distanciaEnY < 0)
-            {
-                Debug.DrawRay(transform.position, Vector3.right * Mathf.Infinity);
-                RaycastHit2D hit;
-
-                //hit = Physics2D.Linecast(transform.position,Vector3.up, _playerMask);
-
-                //if (hit.collider != null)
-                //{
-                //    Debug.Log("Disparo");
-                //}
-            }
-            else if (distanciaEnY > 0)
-            {
-                Debug.DrawRay(transform.position, Vector3.up * Mathf.Infinity);
-                //RaycastHit2D hit;
-
-                //hit = Physics2D.Linecast(transform.position, _player.transform.position, _playerMask);
-
-                //if (hit.collider != null)
-                //{
-                //    Debug.Log("Disparo");
-                //}
-            }
-            else if (distanciaEnX < 0)
-            {
-                Debug.DrawRay(transform.position, Vector3.down * Mathf.Infinity);
-                RaycastHit2D hit;
-
-                //hit = Physics2D.Linecast(transform.position, _player.transform.position, _playerMask);
-
-                //if (hit.collider != null)
-                //{
-                //    Debug.Log("Disparo");
-                //}
-            }
-            else if (distanciaEnX > 0)
-            {
-                Debug.DrawRay(transform.position, Vector3.left * Mathf.Infinity);
-                //RaycastHit2D hit;
-
-                //hit = Physics2D.Linecast(transform.position, _player.transform.position, _playerMask);
-
-                //if (hit.collider != null)
-                //{
-                //    Debug.Log("Disparo");
-                //}
-            }
-        }
+        
     }
 }
