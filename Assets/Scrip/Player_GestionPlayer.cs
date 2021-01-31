@@ -16,9 +16,6 @@ public class Player_GestionPlayer : MonoBehaviour
         {
             Instantiate(_player, _puerta.position, Quaternion.identity);
         }
-        else
-        {
-            _player.transform.position = _puerta.position;
-        }
+
     }
 }
