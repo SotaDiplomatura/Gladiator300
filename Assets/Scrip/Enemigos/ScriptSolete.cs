@@ -10,9 +10,6 @@ public class ScriptSolete : MonoBehaviour
     NavMeshAgent _navM;
     Collider2D _myColli;
 
-    [SerializeField]
-    GameObject pato1, pato2;
-
     float x;
     float y;
 
@@ -24,6 +21,10 @@ public class ScriptSolete : MonoBehaviour
 
     [SerializeField]
     bool sePuedeRomper;
+
+    public LayerMask _playerMask;
+
+    public Sprite disparo;
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -42,23 +43,78 @@ public class ScriptSolete : MonoBehaviour
 
         //Debug.Log("distancia en x : " + distanciaEnX + "distancia en y : " + distanciaEnY);
 
-
-        if (distanciaObjetivo > 3)
+        if (distanciaEnX < 0.1 || distanciaEnY < 0.1)
         {
-            transform.position = Vector3.Lerp(transform.position, _player.transform.position, _speed * Time.deltaTime);
+            Disparo();
+        }
+
+        else if (distanciaObjetivo > 3)
+        {
+            transform.position = Vector3.Lerp(transform.position, _player.transform.position, _speed);
         }
         else
         {
 
             if (distanciaEnY < distanciaEnX)
             {
-                transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x, _player.transform.position.y, 0), _speed * Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x, _player.transform.position.y, 0), _speed);
             }
             else
             {
-                transform.position = Vector3.Lerp(transform.position, new Vector3(_player.transform.position.x, transform.position.y, 0), _speed * Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, new Vector3(_player.transform.position.x, transform.position.y, 0), _speed);
             }
         }
 
+        void Disparo ()
+        {
+            if (distanciaEnY < 0)
+            {
+                Debug.DrawRay(transform.position, Vector3.right * Mathf.Infinity);
+                RaycastHit2D hit;
+
+                //hit = Physics2D.Linecast(transform.position,Vector3.up, _playerMask);
+
+                //if (hit.collider != null)
+                //{
+                //    Debug.Log("Disparo");
+                //}
+            }
+            else if (distanciaEnY > 0)
+            {
+                Debug.DrawRay(transform.position, Vector3.up * Mathf.Infinity);
+                //RaycastHit2D hit;
+
+                //hit = Physics2D.Linecast(transform.position, _player.transform.position, _playerMask);
+
+                //if (hit.collider != null)
+                //{
+                //    Debug.Log("Disparo");
+                //}
+            }
+            else if (distanciaEnX < 0)
+            {
+                Debug.DrawRay(transform.position, Vector3.down * Mathf.Infinity);
+                RaycastHit2D hit;
+
+                //hit = Physics2D.Linecast(transform.position, _player.transform.position, _playerMask);
+
+                //if (hit.collider != null)
+                //{
+                //    Debug.Log("Disparo");
+                //}
+            }
+            else if (distanciaEnX > 0)
+            {
+                Debug.DrawRay(transform.position, Vector3.left * Mathf.Infinity);
+                //RaycastHit2D hit;
+
+                //hit = Physics2D.Linecast(transform.position, _player.transform.position, _playerMask);
+
+                //if (hit.collider != null)
+                //{
+                //    Debug.Log("Disparo");
+                //}
+            }
+        }
     }
 }
