@@ -13,12 +13,12 @@ public class Puerta_GertionEscena : MonoBehaviour
         int escenaRandom;
         if (numeroDeNivelesPasados < 8)
         {
-            escenaRandom = Random.Range(1, 5);
+            escenaRandom = Random.Range(2, 5);
             SceneManager.LoadScene(escenaRandom);
         }
         else
         {
-            escenaRandom = Random.Range(1, 6);
+            escenaRandom = Random.Range(2, 6);
             SceneManager.LoadScene(escenaRandom);
         }
         numeroDeNivelesPasados++;

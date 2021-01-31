@@ -16,6 +16,7 @@ public class Puerta : MonoBehaviour
         _gPuerta = GameObject.Find("GameController").GetComponent<Puerta_GertionEscena>();
         _myAni = GetComponent<Animator>();
         _myCollider = GetComponent<Collider2D>();
+        _myAni.SetBool("Abrir", false);
     }
 
     void Update()
