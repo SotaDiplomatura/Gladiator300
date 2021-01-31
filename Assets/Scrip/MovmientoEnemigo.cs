@@ -16,16 +16,19 @@ public class MovmientoEnemigo : MonoBehaviour
 
     int inputY;
     int inputX;
-    bool _atacando;
+    public bool _atacando;
+    float cadencia;
 
     [SerializeField]
-    float _distanciaAtaque;
+    float _distanciaAtaque,_tiempoEntreAtaque;
     [SerializeField]
     float _daño;
+    public float _dañoAtaque;
     [SerializeField]
     GameObject _colliderAtac;
     void Start()
     {
+        _atacando = false;
         _player = GameObject.FindGameObjectWithTag("Player").transform;
         _myAni = GetComponent<Animator>();
         _navM = GetComponent<NavMeshAgent>();
@@ -41,9 +44,10 @@ public class MovmientoEnemigo : MonoBehaviour
             _navM.SetDestination(_player.position);
             LeerDireccion();
             Flip();
-            Atacar();
+            RotarAtaque();
             Animacion();
         }
+        Atacar();
     }
 
     void LeerDireccion()
@@ -53,8 +57,6 @@ public class MovmientoEnemigo : MonoBehaviour
         x = transform.position.x;
         y = transform.position.y;
         float comparacionX = xRecuerdo - x;
-        comparacionX = (float)System.Math.Round(comparacionX, 2);
-        print(comparacionX);
         float comparacionY = yRecuerdo - y;
         if(comparacionX > -0.01f && comparacionX < 0.01f)
         {
@@ -82,6 +84,7 @@ public class MovmientoEnemigo : MonoBehaviour
             inputY = 0;
         }
     }
+
     void Flip()
     {
         if(x > _player.position.x)
@@ -92,42 +95,37 @@ public class MovmientoEnemigo : MonoBehaviour
             transform.localRotation = Quaternion.Euler(new Vector3(0, -180, 0));
         }
     }
+
+    void RotarAtaque()
+    {
+        _colliderAtac.transform.right = -(_player.transform.position-_colliderAtac.transform.position);
+    }
+
     void Atacar()
     {
         float distancia = Vector2.Distance(transform.position, _player.position);
         if(distancia < _distanciaAtaque)
         {
             _navM.SetDestination(transform.position);
-            _myAni.SetBool("Atacando", true);
-            _atacando = true;
-            
+            _colliderAtac.SetActive(true);
+            _atacando = true;  
+        }
+        cadencia += Time.deltaTime;
+        if(cadencia >= _tiempoEntreAtaque)
+        {
+            cadencia = 0;
+            _atacando = false;
+            _colliderAtac.SetActive(false);
         }
     }
+
     void Animacion()
     {
         _myAni.SetInteger("x", inputX);
         _myAni.SetInteger("y", inputY);
     }
 
-    void ActivatCollider()
-    {
-        _colliderAtac.SetActive(true);
-    }
-
-    void DesactivarCollider()
-    {
-        _atacando = false;
-        _colliderAtac.SetActive(false);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            collision.gameObject.GetComponent<Vida>().Daño(_daño);
-        }
-    }
-
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
