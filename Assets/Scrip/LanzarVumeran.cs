@@ -38,7 +38,7 @@ public class LanzarVumeran : MonoBehaviour
         {
             if (_potencia < _potenciaMax)
             {
-                _potencia += 0.1f;
+                _potencia += 0.3f;
             }
             _cargado = true;
         }
