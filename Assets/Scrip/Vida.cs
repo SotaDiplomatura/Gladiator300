@@ -8,7 +8,6 @@ public class Vida : MonoBehaviour
 
     public void Daño(float d)
     {
-        print("a");
         _vida -= d;
     }
 }

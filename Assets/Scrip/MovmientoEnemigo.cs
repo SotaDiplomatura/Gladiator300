@@ -8,6 +8,7 @@ public class MovmientoEnemigo : MonoBehaviour
     Transform _player;
     NavMeshAgent _navM;
     Animator _myAni;
+    Vida _myVida;
 
     float x = 0;
     float y = 0;
@@ -30,6 +31,7 @@ public class MovmientoEnemigo : MonoBehaviour
     {
         _atacando = false;
         _player = GameObject.FindGameObjectWithTag("Player").transform;
+        _myVida = GetComponent<Vida>();
         _myAni = GetComponent<Animator>();
         _navM = GetComponent<NavMeshAgent>();
         _navM.updateRotation = false;
@@ -48,6 +50,7 @@ public class MovmientoEnemigo : MonoBehaviour
             Animacion();
         }
         Atacar();
+        Muerte();
     }
 
     void LeerDireccion()
@@ -125,7 +128,14 @@ public class MovmientoEnemigo : MonoBehaviour
         _myAni.SetInteger("y", inputY);
     }
 
-    
+    void Muerte()
+    {
+        if(_myVida._vida <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))

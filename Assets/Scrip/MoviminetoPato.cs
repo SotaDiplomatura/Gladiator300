@@ -44,7 +44,7 @@ public class MoviminetoPato : MonoBehaviour
 
     void Flip()
     {
-        if (x > _player.position.x)
+        if (x < _player.position.x)
         {
             transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
         }

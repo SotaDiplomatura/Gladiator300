@@ -14,13 +14,15 @@ GameObject:
   - component: {fileID: 1011559005428885205}
   - component: {fileID: -7127608651573343219}
   - component: {fileID: 6144482316867120887}
+  - component: {fileID: 1588197310}
+  - component: {fileID: 6590561376311741490}
   m_Layer: 0
   m_Name: Orco
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1121996627380809745
 Transform:
   m_ObjectHideFlags: 0
@@ -136,10 +138,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _atacando: 0
   _distanciaAtaque: 0.8
-  _tiempoEntreAtaque: 0
-  "_da\xF1o": 0
-  "_da\xF1oAtaque": 0
-  _colliderAtac: {fileID: 0}
+  _tiempoEntreAtaque: 2
+  "_da\xF1o": 1
+  "_da\xF1oAtaque": 3
+  _colliderAtac: {fileID: 8662738420173388611}
 --- !u!195 &6144482316867120887
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -154,7 +156,7 @@ NavMeshAgent:
   m_Acceleration: 4
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 1.5
+  m_StoppingDistance: 0.8
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -162,6 +164,35 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 3
+--- !u!114 &1588197310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121996627380809747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e582b097eeb564595d76eefa33ebca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _vida: 6
+--- !u!70 &6590561376311741490
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121996627380809747}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.5}
+  m_Size: {x: 0.5424367, y: 1}
+  m_Direction: 0
 --- !u!1 &8662738420173388611
 GameObject:
   m_ObjectHideFlags: 0

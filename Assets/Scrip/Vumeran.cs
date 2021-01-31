@@ -100,4 +100,11 @@ public class Vumeran : MonoBehaviour
             collision.gameObject.GetComponent<Vida>().Daño(_playerControll._daño);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
+            collision.gameObject.GetComponent<Vida>().Daño(_playerControll._daño);
+        }
+    }
 }
