@@ -80,7 +80,14 @@ public class MoviminetoPato : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Vida>().Daño(_daño);
+            collision.gameObject.GetComponent<VidaPlayer>().Daño(_daño);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<VidaPlayer>().Daño(_daño);
         }
     }
 }

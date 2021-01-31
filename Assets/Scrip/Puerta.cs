@@ -34,6 +34,7 @@ public class Puerta : MonoBehaviour
         else
         {
             _myAni.SetBool("Abrir", false);
+            _myCollider.isTrigger = false;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

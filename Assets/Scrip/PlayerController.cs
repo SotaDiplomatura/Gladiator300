@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
 
     void Movimiento()
     {
-        _input = _input * _velocidad * Time.deltaTime;
+        _input = _input * _velocidad;
         if(_input.x != 0 && _input.y !=0)
         {
             _input /= 1.5f;

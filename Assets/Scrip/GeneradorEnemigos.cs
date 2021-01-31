@@ -56,12 +56,13 @@ public class GeneradorEnemigos : MonoBehaviour
         {
             case Salas.Pequeña:
                 numeroEnemigos -= 2;
-                numeroMaximoEnemigos = 4;
+                numeroMaximoEnemigos = 2;
                 break;
             case Salas.Media:
                 numeroMaximoEnemigos = 10;
                 break;
             case Salas.Grandes:
+                numeroMaximoEnemigos = 16;
                 numeroEnemigos += 3;
                 break;
         }

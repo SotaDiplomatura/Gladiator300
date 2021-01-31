@@ -9,7 +9,7 @@ public class Flecha : MonoBehaviour
     Puerta_GertionEscena _pGestorEscena;
 
     [SerializeField]
-    float _velocidad;
+    float _velocidad,_daño;
 
     void Start()
     {
@@ -22,12 +22,32 @@ public class Flecha : MonoBehaviour
             _velocidad *= 1.5f;
         }
 
-        _myRb.AddForce(Vector2.left * _velocidad * Time.deltaTime);
+        _myRb.AddForce(Vector2.left * _velocidad);
         
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<VidaPlayer>().Daño(_daño);
+        }
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
+            collision.gameObject.GetComponent<Vida>().Daño(_daño);
+        }
+        Destroy(this.gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<VidaPlayer>().Daño(_daño);
+        }
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
+            collision.gameObject.GetComponent<Vida>().Daño(_daño);
+        }
         Destroy(this.gameObject);
     }
 }
