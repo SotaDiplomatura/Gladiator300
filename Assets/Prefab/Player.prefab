@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 5102217316544589551}
   - component: {fileID: 5102217316544589546}
   - component: {fileID: 7529229965784486514}
-  - component: {fileID: 762068591462180419}
   - component: {fileID: 2892864290546557961}
   m_Layer: 8
   m_Name: Player
@@ -212,19 +211,6 @@ MonoBehaviour:
     type: 3}
   _potenciaMax: 40
   _potencia: 0
---- !u!114 &762068591462180419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5102217316544589545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1e582b097eeb564595d76eefa33ebca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _vida: 15
 --- !u!114 &2892864290546557961
 MonoBehaviour:
   m_ObjectHideFlags: 0

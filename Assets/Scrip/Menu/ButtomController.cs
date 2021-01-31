@@ -20,7 +20,7 @@ public class ButtomController : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene((1), LoadSceneMode.Single);
+        SceneManager.LoadScene(1);
     }
     public void AjustesMenu()
     {
@@ -64,7 +64,6 @@ public class ButtomController : MonoBehaviour
 
     public void Exit()
     {
-
         Application.Quit();
     }
 }
