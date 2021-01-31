@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class LanzarVumeran : MonoBehaviour
 {
+    [SerializeField]
+    List<Sprite> _barra;
+    [SerializeField]
+    SpriteRenderer _spriteBarra;
+    [SerializeField]
+    Animator _aniBarra;
+
     PlayerController _myPc;
     [SerializeField]
     GameObject _vumeran;
@@ -22,6 +29,7 @@ public class LanzarVumeran : MonoBehaviour
     void Update()
     {
         ComprobarDisparo();
+        ActualizarBarra();
     }
 
     void ComprobarDisparo()
@@ -30,7 +38,7 @@ public class LanzarVumeran : MonoBehaviour
         {
             if (_potencia < _potenciaMax)
             {
-                _potencia += 1+Time.deltaTime;
+                _potencia += 0.1f+Time.deltaTime;
             }
             _cargado = true;
         }
@@ -41,7 +49,40 @@ public class LanzarVumeran : MonoBehaviour
             _tieneVuemeran = false;
         }
     }
-
+    void ActualizarBarra()
+    {
+        if (_potencia == 0)
+        {
+            _aniBarra.enabled = false;
+            _aniBarra.SetBool("Full", false);
+            _spriteBarra.sprite = null;
+        } else if (_potencia < _potenciaMax / 4)
+        {
+            _aniBarra.enabled = false;
+            _aniBarra.SetBool("Full", false);
+            _spriteBarra.sprite = _barra[0];
+        }else if (_potencia < _potenciaMax / 3)
+        {
+            _aniBarra.enabled = false;
+            _aniBarra.SetBool("Full", false);
+            _spriteBarra.sprite = _barra[1];
+        }else if (_potencia < _potenciaMax / 2)
+        {
+            _aniBarra.enabled = false;
+            _aniBarra.SetBool("Full", false);
+            _spriteBarra.sprite = _barra[2];
+        }else if (_potencia < _potenciaMax)
+        {
+            _aniBarra.enabled = false;
+            _aniBarra.SetBool("Full", false);
+            _spriteBarra.sprite = _barra[2];
+        }
+        else
+        {
+            _aniBarra.enabled = true;
+            _aniBarra.SetBool("Full", true);
+        }
+    }
     void Disparar()
     {
         Vector2 posicion;

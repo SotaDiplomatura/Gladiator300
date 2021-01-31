@@ -6,9 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D _myRb;
     Animator _myAni;
-
-    [SerializeField]
-    float _velocidad;
+    
+    public float _velocidad;
 
     public float _daño;
 

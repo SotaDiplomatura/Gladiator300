@@ -41,7 +41,6 @@ public class DialogeController : MonoBehaviour
         {
             if (_Dialogos[0] != null)
             {
-                Debug.Log("0 existe");
                 _numeroLista = 0;
                 _text.text = _Dialogos[_numeroLista].ToString();
                 _Dialogos.Remove(_Dialogos[_numeroLista]);

@@ -66,7 +66,6 @@ public class Vumeran : MonoBehaviour
         {
             _myRb.AddForce(new Vector2(0, -1) * potencia);
         }
-        print("pp");
     }
 
     private void Update()
