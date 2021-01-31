@@ -49,6 +49,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -153,4 +155,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931309d2b538c4f44a3a210cd161c453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocidad: 18000
+  _velocidad: 500
+  "_da\xF1o": 2
