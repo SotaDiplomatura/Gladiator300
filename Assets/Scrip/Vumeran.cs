@@ -20,11 +20,10 @@ public class Vumeran : MonoBehaviour
     {
         _myRb = GetComponent<Rigidbody2D>();
         _mySr = GetComponent<SpriteRenderer>();
-        _playerControll = transform.parent.GetComponent<PlayerController>();
-        _playerLanzaV = transform.parent.GetComponent<LanzarVumeran>();
+        _playerControll = GameObject.FindGameObjectWithTag("player").GetComponent<PlayerController>();
+        _playerLanzaV = GameObject.FindGameObjectWithTag("player").GetComponent<LanzarVumeran>();
         gameObject.layer = 9;
         potencia = _playerLanzaV._potencia * 10;
-        transform.parent = null;
     }
     void Start()
     { 

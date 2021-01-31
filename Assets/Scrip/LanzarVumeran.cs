@@ -38,7 +38,7 @@ public class LanzarVumeran : MonoBehaviour
         {
             if (_potencia < _potenciaMax)
             {
-                _potencia += 0.1f+Time.deltaTime;
+                _potencia += 0.1f;
             }
             _cargado = true;
         }
@@ -89,15 +89,15 @@ public class LanzarVumeran : MonoBehaviour
         if(_myPc._derecha || _myPc._izquierda)
         {
             posicion = transform.GetChild(2).transform.position;
-            Instantiate(_vumeran, posicion, Quaternion.identity, transform);
+            Instantiate(_vumeran, posicion, Quaternion.identity);
         }else if(_myPc._espalda)
         {
             posicion = transform.GetChild(1).transform.position;
-            Instantiate(_vumeran, posicion, Quaternion.identity, transform);
+            Instantiate(_vumeran, posicion, Quaternion.identity);
         }else
         {
             posicion = transform.GetChild(0).transform.position;
-            Instantiate(_vumeran, posicion, Quaternion.identity, transform);
+            Instantiate(_vumeran, posicion, Quaternion.identity);
         }
         Invoke("BajarPotencia", 0.1f);
     }

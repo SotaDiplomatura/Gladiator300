@@ -40,6 +40,7 @@ public class VidaPlayer : MonoBehaviour
         {
             Destroy(GameObject.Find("GameController"));
             SceneManager.LoadScene(1);
+            Destroy(gameObject);
         }
         else if(_vida < _vidaMax * 0.25f)
         {
