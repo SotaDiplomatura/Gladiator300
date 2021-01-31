@@ -25,6 +25,7 @@ public class VidaPlayer : MonoBehaviour
     private void Update()
     {
         cadencia += Time.deltaTime;
+        actualizarSprite();
     }
     public void Daño(float d)
     {
@@ -41,15 +42,15 @@ public class VidaPlayer : MonoBehaviour
             Destroy(GameObject.Find("GameController"));
             SceneManager.LoadScene(1);
         }
-        else if(_vida < _vidaMax/4)
+        else if(_vida < _vidaMax * 0.25f)
         {
             _imgLive.sprite = _live[0];
         }
-        else if (_vida < _vidaMax / 3)
+        else if (_vida < _vidaMax * 0.5f)
         {
             _imgLive.sprite = _live[1];
         }
-        else if (_vida < _vidaMax / 2)
+        else if (_vida < _vidaMax * 0.75f)
         {
             _imgLive.sprite = _live[2];
         }
